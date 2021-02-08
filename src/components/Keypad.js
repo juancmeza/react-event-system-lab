@@ -11,8 +11,8 @@ handleKeyUp = () => {
     console.log('Entering password...')
 } 
 
-handleOnChange = () => {
-    console.log(e.target)
+handleOnChange = (e) => {
+    console.log(e.target.value)
 } 
 
 render() {
